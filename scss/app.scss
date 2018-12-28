@@ -1,0 +1,48 @@
+/*
+ * SCSS Custom Theme for HCC Online using Bootstrap 4.2.1
+ * Created on 12/28/18
+ * by Jeremy Hawkins
+*/
+
+/* Import Customizations */
+
+// Import Fonts
+@font-face {
+    font-family: 'Avenir';
+    src: url('./fonts/Avenir-Black.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Light';
+    src: url('./fonts/Avenir-Light.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url('./fonts/Avenir-Roman.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Medium';
+    src: url('./fonts/Avenir-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Heavy';
+    src: url('./fonts/Avenir-Heavy.otf');
+}
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url('./fonts/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('./fonts/TrajanPro-Bold.otf');
+}
+
+@import "hcconline";
+/* Import Bootstrap SCSS */
+
+@import "../node_modules/bootstrap/scss/bootstrap";

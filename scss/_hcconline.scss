@@ -1,0 +1,22 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+// Color system
+$white: #ffffff;
+$black: #000000;
+// stylelint-disable-next-line scss/dollar-variable-default
+$primary: #ffb819;
+$secondary: #000000;
+$success: #009d4e;
+$info: #0075c9;
+$warning: #e56385;
+$danger: #d9272e;
+$light: #8a8a8d;
+$dark: #55565a;
+// stylelint-disable-next-line scss/dollar-variable-default
+//$theme-colors: map-merge( ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark), $theme-colors);
+$font-family-sans-serif: Avenir, 'Avenir Light', 'Avenir Roman', 'Avenir Medium';
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  'Liberation Mono', 'Courier New', monospace !default;
+$headings-font-family: 'Gotham Black', 'Trajan Pro', 'Avenir Heavy';
